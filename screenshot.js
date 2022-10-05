@@ -15,5 +15,8 @@ const { chromium } = require('playwright'); // can use webkit, firefox
     const logo = await page.$('.logo')
     await logo.screenshot({path: 'logo.png'})
 
+    // take a screenshot of the whole page
+    await page.screenshot({path: 'fullpage.png', fullPage: true})
+
     await browser.close();
 })();
