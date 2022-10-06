@@ -1,7 +1,7 @@
 {
   "name": "learningplaywright",
   "version": "1.0.0",
-  "description": "",
+  "description": "When using Playwright\r Step 1: \"npm init -y\"\r Step 2: \"npm install playwright\"",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +11,13 @@
   "license": "ISC",
   "devDependencies": {
     "playwright": "^1.26.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexius337/LearningPlaywright.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Alexius337/LearningPlaywright/issues"
+  },
+  "homepage": "https://github.com/Alexius337/LearningPlaywright#readme"
 }
