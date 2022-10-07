@@ -1,4 +1,5 @@
 When using Playwright
 Step 1: "npm init -y"
 Step 2: "npm install playwright"
-Step 3L "npm install -D jest" 
+Step 3: "npm install -D jest" to use Jest JavaScript testing library
+Step 4: "npm i -D @applitools/eyes-playwright" to use applitools visual testing
