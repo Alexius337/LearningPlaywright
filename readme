@@ -3,3 +3,9 @@ Step 1: "npm init -y"
 Step 2: "npm install playwright"
 Step 3: "npm install -D jest" to use Jest JavaScript testing library
 Step 4: "npm i -D @applitools/eyes-playwright" to use applitools visual testing
+
+Generatetest end-to-end scripts with Record and Playback:
+"npx playwright codegen https://www.saucedemo.com"
+Go through all of the expected user actions.
+Click stop.
+Copy the generated script and save it. 
